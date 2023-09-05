@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task2</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 200px;
+          background-color: aqua;
+          border-style: double;
+        
+          
+        }
+        
+        li a {
+          display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+        }
+        
+        li a.active {
+          background-color: orange;
+          color: white;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #555;
+          color: white;
+        }
+        </style>
+</head>
+<body>
+
+    <center>
+        <p>
+
+            <div style="font-size: x-large;"><b>Verticle Navigation Bar</b></div>
+            
+            
+            <ul style="font-size: larger;">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#java">Java</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#HTML">HTML</a></li>
+                <li><a href="#bootstrap">Bootstrap</a></li>
+            </ul>
+    
+        </p>
+    
+        <p>
+    
+            <div style="font-size: x-large;"><b>Horizontal Navigation Bar</b></div>
+            
+            
+            <ul style="list-style-type:none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: gray;
+            width:max-content">
+    
+                <li style="float: left;"><a class="active" href="#home">Home</a></li>
+                <li style="float: left;"><a href="#news">News</a></li>
+                <li style="float: left;"><a href="#contact">Contact</a></li>
+                <li style="float: left;"><a href="#about">About</a></li>
+              </ul>
+              
+    
+        </p>
+
+    </center>
+   
+    
+</body>
+</html>
