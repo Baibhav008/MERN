@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task4</title>
+
+    <style>
+        #mySidenav a {
+          position: absolute;
+          left: -80px;
+          transition: 0.4s;
+          padding: 15px;
+          width: 100px;
+          text-decoration: none;
+          font-size: 20px;
+          color: white;
+          border-radius: 0 10px 10px 0;
+        }
+        
+        #mySidenav a:hover {
+          left: 0;
+        }
+        
+        #MongoDB {
+          top: 20px;
+          background-color: #04AA6D;
+        }
+        
+        #Express {
+          top: 80px;
+          background-color: #2196F3;
+        }
+        
+        #React {
+          top: 140px;
+          background-color: #f44336;
+        }
+        
+        #Node {
+          top: 200px;
+          background-color: #555
+        }
+        </style>
+</head>
+<body>
+
+    <div  id="mySidenav" class="sidenav" >
+        <a href="#" id="MongoDB">MongoDB</a>
+        <a href="#" id="Express">Express</a>
+        <a href="#" id="React">React</a>
+        <a href="#" id="Node">Node</a>
+      </div>
+      
+      <div style="margin-left:80px;">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+      </div>
+    
+</body>
+</html>
